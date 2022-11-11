@@ -111,6 +111,8 @@ public class Movie extends BaseObservable implements Parcelable {
         notifyPropertyChanged(BR.adult);
     }
 
+
+    // we are learning github
     @Bindable
     public String getOverview() {
         return overview;
